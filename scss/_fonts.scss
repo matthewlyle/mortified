@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+// https://fonts.google.com/specimen/Permanent+Marker
+// https://fonts.google.com/specimen/Gloria+Hallelujah
+
+
+
+@font-face {
+    font-family: 'Pointy';
+    src: url('../hyphen/fonts/pointy-webfont.eot');
+    src: url('../hyphen/fonts/pointy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../hyphen/fonts/pointy-webfont.woff') format('woff'),
+         url('../hyphen/fonts/pointy-webfont.ttf') format('truetype'),
+         url('../hyphen/fonts/pointy-webfont.svg#PointyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

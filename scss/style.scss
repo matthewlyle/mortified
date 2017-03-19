@@ -1,0 +1,118 @@
+/*
+Theme Name: hyphen
+Theme URI: http://github.com/matthewlyle.hyphen
+Author: Matt Dunn
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hyphen
+Tags:
+
+Hyphens is based on Underscores http://underscores.me/ but without any of the default
+classes.
+
+*/
+
+@import 'fonts';
+
+@import 'default';
+@import 'menus';
+@import 'wordpress';
+
+// @import './sprite'; // generated from gulpfile.js
+
+@import 'mixins';
+@import 'vendor';
+@import 'variables';
+@import 'defaults';
+@import 'components';
+@import 'utilities';
+
+.border-radius {border-radius: 3px;}
+.border {border: 1px solid #ccc;}
+
+// focus
+
+#subscribe input:focus {
+	outline: none;
+}
+
+/*
+
+	Hovers
+
+*/
+
+// homepage
+#subscribe input[type="submit"]:hover {
+	transition: .2s;
+	cursor: pointer;
+	background: darken($red, 15%);
+}
+
+.social a:hover {
+	background: none;
+	i {
+		transition: .3s;
+		color: $red;
+	}
+}
+
+footer a:hover {
+	background: none;
+	@extend .t-white;
+}
+
+main {
+	ul {
+		margin-bottom: ms(0);
+	}
+}
+
+
+// .page-title {text-align: center;}
+
+
+// Participate
+
+.participate-1 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 0 0;
+}
+
+.participate-2 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 100px 0;
+}
+
+.participate-3 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 200px 0;
+}
+
+.participate-4 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 300px 0;
+}
+
+.gallery-item {
+	margin-bottom: 2em;
+}
+.gallery a:hover {
+	background: none;
+}
+
+
+
+
+
+.border-bottom-l-white {border-bottom: 5px solid #fff;}
+.border-bottom-grey {border-bottom: 1px solid #eee;}
+.border-bottom-dark {border-bottom: 1px dotted #212121;}
+

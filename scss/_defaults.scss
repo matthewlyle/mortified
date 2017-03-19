@@ -1,0 +1,66 @@
+body {
+	background-image: url('/img/background.jpg');
+    background-repeat: repeat;
+    background-position: left top;
+	font-family: $body-font;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #555;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+	transition: .2s;
+}
+
+a:hover {
+	background: yellow;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: $cursive-font;
+	color: $black;
+}
+
+h1 {
+	font-size: ms(3);
+	margin-bottom: ms(1);
+}
+
+h2 {
+	font-size: ms(2);
+	margin-bottom: ms(0);
+}
+h3 {
+	font-size: ms(1);
+	margin-bottom: ms(0);
+}
+h4 {font-size: ms(0);}
+
+p {
+	font-size: ms(0);
+	margin-bottom: ms(0);
+}
+
+strong {font-weight: 700;}
+em {font-style: italic}
+
+hr {
+	border-top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.page-title {
+	line-height: 1;
+	margin-bottom: 1em;
+	font-family: Pointy;
+    font-size: 64px;
+    margin-bottom: 2rem;
+}

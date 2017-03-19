@@ -1,0 +1,10 @@
+@import 'vendor/normalize';
+@import "vendor/neat/neat-helpers";
+$max-width: 1040px;
+@import 'vendor/neat/neat';
+@import 'vendor/slick/slick';
+@import 'vendor/slick/slick-theme';
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
