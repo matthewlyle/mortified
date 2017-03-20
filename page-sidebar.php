@@ -8,7 +8,7 @@ get_header(); ?>
 
 	<div id="primary" class="container c-white p-larger">
 
-		<div class="g-1_4 p-right">
+		<div class="g-1_4 p-right m-bottom-large">
 			<?php
 			if ( $post->post_parent ) {
 			    $children = wp_list_pages( array(
