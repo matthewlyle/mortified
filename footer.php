@@ -53,6 +53,8 @@
 	</div>
 </footer>
 
+<?php require get_template_directory() . '/inc/podcast-player.php'; ?>
+
 <?php wp_footer(); ?>
 
 </body>
