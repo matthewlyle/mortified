@@ -35,7 +35,6 @@
 		<section class="g-1_4">
 			<h3 class="t-white">Other stuff</h3>
 			<ul class="list-unset m-bottom-large">
-				<li><a href="/gallery" class="t-dark-grey block p-bottom-small m-bottom-small t-small border-bottom-dark">Photos &amp; Promo Art</a></li>
 				<li><a href="/muse" class="t-dark-grey block p-bottom-small m-bottom-small t-small border-bottom-dark">Art Inspired by the Podcast</a></li>
 				<li><a href="http://www.chopshopstore.com/products/mortified-id-tee?variant=15336608643%20target=" class="t-dark-grey block p-bottom-small m-bottom-small t-small border-bottom-dark">T-Shirts</a></li>
 				<li><a href="/dry-hump-etiquette" class="t-dark-grey block p-bottom-small m-bottom-small t-small border-bottom-dark">Dry Hump Etiquette</a></li>
