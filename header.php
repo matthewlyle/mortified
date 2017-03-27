@@ -25,7 +25,7 @@
 		<nav>
 			<ul class="siteNav m-bottom-large">
 				<li><a href="/attend" class="siteNav__item <?php if (is_page('Attend Mortified')) {echo " is-active"; }?>">Attend <i class="fa fa-ticket" aria-hidden="true"></i></a></li>
-				<li><a href="/listen" class="siteNav__item<?php if (is_page('Listen')) {echo " is-active"; }?>">Listen <i class="fa fa-headphones" aria-hidden="true"></i></a></li>
+				<li><a href="/podcast" class="siteNav__item<?php if (is_page('Listen')) {echo " is-active"; }?>">Listen <i class="fa fa-headphones" aria-hidden="true"></i></a></li>
 				<li><a href="/participate" class="siteNav__item<?php if (is_page('Participate')) {echo " is-active"; }?>">Participate <i class="fa fa-microphone" aria-hidden="true"></i></a></li>
 				<li><a href="/watch/mortified-nation" class="siteNav__item<?php if (is_page('Mortified Nation')) {echo " is-active"; }?>">Watch <i class="fa fa-television" aria-hidden="true"></i></a></li>
 				<li><a href="/books" class="siteNav__item<?php if (is_page('Books')) {echo " is-active"; }?>">Books <i class="fa fa-book" aria-hidden="true"></i></a></li>
