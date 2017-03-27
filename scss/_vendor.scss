@@ -7,6 +7,5 @@ $max-width: 1040px;
 @import 'vendor/slick/slick-theme';
 @import 'vendor/podcast';
 
-.slick-dotted.slick-slider {
-	margin-bottom: 0;
-}
+.slick-dotted.slick-slider {margin-bottom: 0;}
+.slick-dots {bottom: auto;}

@@ -67,7 +67,7 @@ html, body {
 			cursor: initial;
 		}
 
-		.podcast-player-left {transition: .3s; width: 0;}
+		.podcast-player-left {transition: .3s; width: 0; display: none;}
 		.podcast-player-right {width: 100%; }
 
 	}
