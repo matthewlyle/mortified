@@ -17,24 +17,36 @@ get_header(); ?>
 
 <div id="primary" class="container c-white p-larger">
 	<main id="main" class="site-main" role="main">
-
-	<section class="js-slide" data-slide="attend">
-
-
-
-
-
 		<img src="img/hero.jpg" class="m-bottom" width="100%" />
 		<div class="clearfix m-bottom-large">
 			<section class="g-1_3">
 				<p class="t-large"><span class="drop-cap">W</span>itness adults sharing their most embarrassing childhood artifacts (journals, letters, poems, lyrics, plays, home movies, art) with others, in order to reveal stories about their lives.</p>
 			</section>
-			<section class="g-2_3 p-left-large">
-				<h2 class="h3 u-left">Upcoming Events</h2>
-				<!-- <a href="/attend" class="unlink u-right"><img src="/img/see-more.png" alt="See more events" /></a> -->
-				<!-- <p class="t-larger u-right" style="font-family: Pointy">see <span class="t-red">more</span></p> -->
-				<?php echo do_shortcode( '[event-list num_events=5 show_filterbar=false]' ); ?>
-				<img src="http://getmortified.com/wp-content/uploads/2015/05/seemore4-1.png"></a>
+			<section id="homepage-event-list" class="g-2_3 p-left-large">
+				<div class="clearfix">
+					<h2 class="h3 u-left">Upcoming Events</h2>
+					<a href="/attend"><img src="http://getmortified.com/wp-content/uploads/2015/05/seemore4-1.png" class="u-right" width="150px"></a>
+				</div>
+				<table class="m-bottom t-small">
+				test
+					<tbody>
+						<?php
+						$current_date = date('Ymd', strtotime("now"));
+						$the_future = date('Ymd', strtotime("+24 months"));
+						$args = array( 'post_type' => 'event', 'posts_per_page' => 5, 'meta_key' => 'event_date', 'meta_compare' => 'BETWEEN', 'meta_value' => array($current_date, $the_future), order=> 'ASC' );
+						$loop = new WP_Query( $args );
+						while ( $loop->have_posts() ) : $loop->the_post();
+						?>
+							<tr>
+								<td><i class="fa fa-calendar"></i> <?php $date = get_field('event_date', false, false); $date = new DateTime($date); echo $date->format('D M j'); ?></td>
+								<td style="width: 25%"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></td>
+								<td><i class="fa fa-map-marker"></i> <?php the_field('event_city'); ?>, <?php the_field('event_state'); ?></td>
+								<td><i class="fa fa-clock-o"></i> <?php the_field('event_time'); ?></td>
+								<td><a href="<?php the_field('event_tickets'); ?>">Attend</a></td>
+							</tr>
+						<?php endwhile; ?>
+					</tbody>
+				</table>
 			</section>
 		</div>
 		<div class="clearfix m-bottom-large">
