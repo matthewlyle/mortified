@@ -81,9 +81,9 @@ get_header(); ?>
 		</div>
 		<div class="m-bottom-none t-centered" id="quotes">
 			<div class="">
-				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">“A cultural phenomenon!”</span> <span class="u-block t-italic">– Newsweek</span></p>
-				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">“Funny, touching, and intensely relatable”</span> <span class="u-block t-italic">– Wired</span></p>
-				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">Hilarious</span> <span class="u-block t-italic">– The Atlantic</span></p>
+				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">“A cultural phenomenon!”</span> <span class="u-block">– Newsweek</span></p>
+				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">“Funny, touching, and intensely relatable”</span> <span class="u-block">– Wired</span></p>
+				<p class="g-1_3 m-bottom-none"><span class="t-cursive t-black t-bold">Hilarious</span> <span class="u-block">– The Atlantic</span></p>
 			</div>
 		</div>
 </div>
