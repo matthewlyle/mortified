@@ -268,8 +268,8 @@
 	</select>
 
 	<label class="t-medium">Postal Code <span style="text-transform: none;">(Required for US Residents)</span></label>
-    <input type="text" class="p-small border-radius" name="MERGE5" id="MERGE5" size="25" value="">
+    <input type="text" class="p-small border-radius w-auto" name="MERGE5" id="MERGE5" size="25" value="">
 
 	<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0c7d3e38af0adeb7d5ccd9911_c61a33c67e" tabindex="-1" value=""></div>
-	<input type="submit" class="c-dark-red p-small t-heavy t-white t-smaller border-radius" name="submit" value="Subscribe" />
+	<input type="submit" class="c-dark-red p-small t-heavy t-white t-smaller border-radius w-auto" name="submit" value="Subscribe" />
 </form>
